@@ -18,7 +18,7 @@ public class Program {
 		int number = sc.nextInt();
 		System.out.print("Check-in date (dd/MM/yyyy): ");
 		Date checkIn = sdf.parse(sc.next());
-		System.out.print("Check-out date (dd/wMM/yyyy): ");
+		System.out.print("Check-out date (dd/MM/yyyy): ");
 		Date checkOut = sdf.parse(sc.next());
 		
 		if(!checkOut.after(checkIn)) {
